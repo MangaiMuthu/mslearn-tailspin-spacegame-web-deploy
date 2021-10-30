@@ -71,9 +71,6 @@ stages:
   dependsOn: Build
   condition: | 
               and ( succeeded(), eq(variables['Build.SourceBranchName'], variables['releaseBranchName'])
-jobs:
-- deployment: Deploy
-pool:
   jobs:
   - deployment: Deploy
     pool:
