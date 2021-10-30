@@ -74,7 +74,6 @@ stages:
 jobs:
 - deployment: Deploy
 pool:
- )
   jobs:
   - deployment: Deploy
     pool:
